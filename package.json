@@ -1,0 +1,31 @@
+{
+  "name": "usng_tools",
+  "version": "1.0.0",
+  "description": "Tools for converting coordinates to USNG strings.",
+  "main": "usng2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theduckylittle/usng_tools.git"
+  },
+  "keywords": [
+    "usng",
+    "projections",
+    "map",
+    "gis"
+  ],
+  "author": "Jim Klassen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theduckylittle/usng_tools/issues"
+  },
+  "homepage": "https://github.com/theduckylittle/usng_tools#readme",
+  "dependencies": {
+    "proj4": "^2.3.15"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}

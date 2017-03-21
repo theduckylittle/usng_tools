@@ -5,6 +5,7 @@
  * License:
  * 
  * Copyright (c) 2008-2013 James Klassen
+ *           (c) 2017      Dan "Ducky" Little, JS modularization
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the 'Software'), to
@@ -34,7 +35,7 @@
  *       
  */
 
-window.USNG2 = function() {
+module.exports = function() {
 	// Note: grid locations are the SW corner of the grid square (because easting and northing are always positive)
 	//                   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19   x 100,000m northing
 	var NSLetters135 = ['A','B','C','D','E','F','G','H','J','K','L','M','N','P','Q','R','S','T','U','V'];
